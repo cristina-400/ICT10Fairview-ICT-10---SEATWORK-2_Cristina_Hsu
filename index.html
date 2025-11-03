@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Student Grade Calculator</title>
+
+     <body class="container mt-4">
+  <div class="mx-auto p-4 border rounded shadow" style="max-width: 400px; background-color: #f8f9fa;">
+         <center><br>
+            <div class="text-center text-white p-3 rounded" style="background-color: rgb(177, 192, 224); box-shadow:0 4px 12px rgba(156, 190, 241, 0.968) ;">
+            <h2>Student Grade Calculator</h2>
+            <br>
+      <label for="first">First name</label>
+    <input type="text" id="first name" placeholder="Enter your First Name" class="form-control mb-2">
+
+    <label for="last">Last name</label>
+        <input type="text" id="last name" placeholder="Enter your Last Name" class="form-control mb-2">
+
+          <label for="Math">Math Grade</label>
+        <input type="number" id="math" placeholder ="" class="form-control mb-2">
+
+        <label for="Science">Science Grade</label>
+        <input type="number" id="science" placeholder ="" class="form-control mb-2">
+
+        <label for="English">English Grade</label>
+        <input type="number" id="english" placeholder ="" class="form-control mb-2">
+
+        <label for="ICT">ICT Grade</label>
+        <input type="number" id="ict" placeholder ="" class="form-control mb-2">
+
+        <label for="SS">S.S Grade</label>
+        <input type="number" id="ss" placeholder ="" class="form-control mb-2">
+
+        <label for="PE">PE Grade</label>
+        <input type="number" id="pe" placeholder ="" class="form-control mb-2">
+
+        <button py-click="general_weighted_average">Calculate GWA</button>
+
+         <script type="py" src="main.py"></script>
+                 </center>
+
+                 <div id="student_info"></div>
+                <div id="summary"></div>
+                <div id="output"></div>
+
+        </div>
+        </body>
+        </head>
+        </html>
+
+
+
